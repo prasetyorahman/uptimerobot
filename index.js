@@ -1,7 +1,7 @@
 const axios = require("axios")
-const urls = ["link project"]
+const urls = ["https://bot-discord-warkop.glitch.me"]
 setInterval(function() {
             urls.forEach(url => {
-            axios.get(url).then(console.log("Pong at " + Date.now())).catch(() => {});
+            axios.get(url).then(console.log("Anjay, Uptime At. " + Date.now())).catch(() => {});
         })
-    }, 60 * 1000);
+    }, 30 * 1000);
